@@ -1,0 +1,34 @@
+body{
+    width: 100dvh;
+    height: 100dvh;
+    padding: 0;
+}
+#Carta {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 80dvh;
+    height: 30dvh;
+    overflow: hidden;
+
+    background-image: url("./assets/ChatGPT Image 2 de mar. de 2026, 19_55_14.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+}
+@keyframes abrir{
+    0%{
+        opacity:1
+    }50%{
+        opacity:0
+    }100%{
+        opacity:1
+    }
+}
